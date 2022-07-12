@@ -7,7 +7,7 @@ metadata:
   name: test
 spec:
   containers:
-  - image: httpd
+  - image: $REGISTRY/$PROJECT/$APP_NAME:$BUILD_ID
     name: test
     resources: {}
   dnsPolicy: ClusterFirst
