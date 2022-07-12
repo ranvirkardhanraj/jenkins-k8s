@@ -4,7 +4,7 @@ metadata:
   creationTimestamp: null
   labels:
     run: test
-  name: test2
+  name: $BUILD_TAG
 spec:
   containers:
   - image: $REGISTRY/$PROJECT/$APP_NAME:$BUILD_ID
