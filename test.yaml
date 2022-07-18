@@ -22,7 +22,7 @@ metadata:
   creationTimestamp: "2022-07-18T04:42:22Z"
   labels:
     run: test
-  name: test27
+  name: test$BUILD_NUMBER
   namespace: default
   resourceVersion: "16306835"
   uid: 1f7dc3f3-4c1a-46c5-b870-e2e424ec8914
