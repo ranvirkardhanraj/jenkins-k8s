@@ -15,7 +15,6 @@ spec:
   restartPolicy: Always
 status: {}
 ---
-apiVersion: v1
 kind: Service
 metadata:
   creationTimestamp: "2022-07-18T04:42:22Z"
