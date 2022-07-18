@@ -28,9 +28,6 @@ metadata:
   uid: 1f7dc3f3-4c1a-46c5-b870-e2e424ec8914
 spec:
   allocateLoadBalancerNodePorts: true
-  clusterIP: 100.69.155.25
-  clusterIPs:
-  - 100.69.155.25
   externalTrafficPolicy: Cluster
   internalTrafficPolicy: Cluster
   ipFamilies:
@@ -45,7 +42,4 @@ spec:
     run: test
   sessionAffinity: None
   type: LoadBalancer
-status:
-  loadBalancer:
-    ingress:
-    - ip: 10.38.90.110
+status: {}
